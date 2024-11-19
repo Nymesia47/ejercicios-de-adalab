@@ -1,0 +1,18 @@
+.ejercicio2 {
+    background-color: deeppink;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
