@@ -16,3 +16,17 @@
 .none {
     display: none;
 }
+
+.ejercicio5 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.img-ejercicio5 {
+    width: 100px;
+    height: 100px;
+}
