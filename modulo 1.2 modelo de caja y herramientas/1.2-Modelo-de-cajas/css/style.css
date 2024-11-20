@@ -1,0 +1,46 @@
+:root {
+    --color-title: rgb(202, 8, 73);
+    /*colores, tipografia,  */
+
+}
+
+.header {
+    width: 500px;
+    height: 100px;
+    background-color: pink;
+    /*margin: 20px;*/
+    margin: 20px 10px 30px 50px;
+    padding: 15px;
+    border: 5px solid black;
+}
+
+.header .menu {
+    list-style: none;
+}
+
+.dev {
+    width: 400px;
+    background-color: var(--color-title);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.link {
+    display: block;
+}
+.menu li {
+    display: inline-block;
+    width: 50px;
+}
+
+.icono {
+    width: 100px;
+}
+
+span {
+    color: var(--color-title);
+}
