@@ -40,3 +40,27 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.div-child {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+    position: relative;
+}
+
+.div1 {
+    background-color: chocolate;
+    left: 100px;
+    top: 50px;
+}
+.div2 {
+    background-color: rgb(157, 240, 23);
+    right: 150px;
+    bottom: 320px;
+}
+.div3 {
+    background-color: rgb(163, 106, 228);
+    left: 180px;
+    bottom: 240px;
+}
