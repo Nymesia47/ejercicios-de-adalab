@@ -1,14 +1,14 @@
 html {
-    font-size: 16px;
+    font-size: 62.5%;
   }
   .smiley {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
+    width: 20.0rem;
+    height: 20.0rem;
+    line-height: 20.0rem;
     text-align: center;
     font-family: "courier new";
     font-weight: bold;
-    font-size: 50px;
+    font-size: 10.0rem;
     color: #424242;
     background: #ffcc00;
     position: fixed;
