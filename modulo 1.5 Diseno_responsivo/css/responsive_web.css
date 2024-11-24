@@ -5,19 +5,16 @@
 }
 html {
     font-size: 62.5%;
+    margin: 2.5rem;
 }
 body {
     font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 2.0rem;
+    height: 100vh;
     
 }
-.page_wrapper {
-    margin: 0 2.0rem;
-    
-    
-}
-.page_header .page_wrapper {
+
+.page_header {
     padding-bottom: 2.5rem;
     background-color: rgb(182, 174, 174);
     
@@ -26,7 +23,7 @@ h1 {
     font-weight: 800;
 }
 
-.nav .page_wrapper {
+.nav {
     background-color: lime;
 }
 .nav ul {
@@ -35,9 +32,11 @@ h1 {
 }
 .page_main {
     background-color: rgb(182, 174, 174);
-    margin: 0 2.0rem;
+    display:flex;
+    flex-direction: column;
+    
 }
-.editorial .page_wrapper {
+.editorial {
     background-color: yellow;
     display: flex;
     flex-direction: column;
@@ -49,12 +48,8 @@ h1 {
 p {
     margin-top: 2.0rem;
 }
-
-.aside .page_wrapper {
-    background-color: rgb(182, 174, 174);
-    
-}
 .info-container {
     background-color: grey;
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
