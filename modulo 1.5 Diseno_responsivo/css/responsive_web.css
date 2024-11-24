@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2.0rem;
+    
+}
+.page_wrapper {
+    margin: 0 2.0rem;
+    
+    
+}
+.page_header .page_wrapper {
+    padding-bottom: 2.5rem;
+    background-color: rgb(182, 174, 174);
+    
+}
+h1 {
+    font-weight: 800;
+}
+
+.nav .page_wrapper {
+    background-color: lime;
+}
+.nav ul {
+    list-style: none;
+    color: blue;
+}
+.page_main {
+    background-color: rgb(182, 174, 174);
+    margin: 0 2.0rem;
+}
+.editorial .page_wrapper {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.editorial_title {
+    font-weight: 500;
+}
+
+p {
+    margin-top: 2.0rem;
+}
+
+.aside .page_wrapper {
+    background-color: rgb(182, 174, 174);
+    
+}
+.info-container {
+    background-color: grey;
+    margin-top: 1.5rem;
+}
