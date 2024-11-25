@@ -3,6 +3,80 @@
     margin: 0;
     padding: 0;
 }
-html {
-    font-size: 62.5%;
+
+/*
+0. - el menu debe de estar a la derecha del titulo de la pagina, y debe estar fijo
+1. - en movil se ve la hamburguesa y en tables no
+2.- el menu grande se ve desde la table
+3.- los articulos se ven un al lado de otro desde ordenador en adelante
+4. - hacer la imagen resonsive
+*/
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%; /*10px */
 }
+
+.header {
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-size: 2.5rem;
+    
+}
+.hamb {
+    width: 40px;
+}
+.menu {
+    display: none;
+}
+main {
+    height: 120vh;
+    background-color: bisque;
+}
+.pres {
+    width: 10.0rem;
+}
+.pic-cont img {
+    width: 100%;
+}
+
+/*
+moviles--> <768px
+table--> >768<1028
+pc --> >1200px
+*/
+
+@media (min-width:768px){
+    .menu {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+    }
+    .hamb {
+        display: none;
+    }
+    .pictures {
+        display: flex;
+        justify-content: space-around;
+    }
+    .pic-cont {
+        width: 40%;
+    }
+
+}
+@media (width > 1000px){
+.article {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+}
+/*@media screen (){ diferente dspositivo (print, TV)
+
+}
+@media all (){resumen de @media
+
+}*/
