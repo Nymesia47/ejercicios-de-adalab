@@ -70,12 +70,14 @@ p {
         flex-direction: row;
     }
     .nav {
-        width: 40%;
+        width: 25%;
         display: inline-block;
+        align-self: flex-start;
         
     }
     .page_content {
         margin: 0 1.5rem 1.0rem 1.5rem;
+        width: 75%;
     }
     
     .info-container {
@@ -100,5 +102,58 @@ p {
         margin-top: 2.0rem;
         margin-bottom: 5.0rem;
     }
+
+
     
+}
+
+@media (min-width: 1000px) {
+    .page_main {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .nav {
+        width: 25%;
+        display: inline-block;
+        align-self: flex-start;
+        
+    }
+    .page_content {
+        display: flex;
+        width: 75%;
+        gap: 20px;
+    }
+
+    .editorial {
+        width: 75%;
+    }
+    .content {
+        display: flex;
+    }
+    p {
+        width: 60%;
+    }
+
+    .editorial_img {
+        display: inline-block;
+        background-color: orange;
+        width: 40%;
+        height: 15.0rem;
+        margin-top: 2.0rem;
+        margin-bottom: 5.0rem;
+    }
+    .aside {
+        width: 25%;
+        display: inline-block;
+        align-self: flex-start;
+    }
+    .info-container {
+        margin-top: 0;
+        margin-bottom: 0;
+        align-self: flex-start;
+    }
+    .info-container p {
+        width: 100%;
+    }
 }
